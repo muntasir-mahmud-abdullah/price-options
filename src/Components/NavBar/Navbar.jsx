@@ -15,7 +15,7 @@ const Navbar = () => {
   ];
   const [open, setOpen] = useState(false);
   return (
-    <nav className="bg-gray-600 max-w-screen-xl px-4">
+    <nav className="bg-gray-600 px-4">
       <div onClick={() => setOpen(!open)} className="text-xl md:hidden">
         {open === true ? (
           <TfiClose></TfiClose>
